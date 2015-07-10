@@ -1,9 +1,10 @@
 # wikieds
 
-A command line script to summarize the editors for a given Wikipedia article.
-Results are output in Markdown.  If you have ideas for improving this script
-please submit an issue ticket. You'll see it can take some time to run, 
-depending on the number editors, and their number of edits on Wikipedia.
+wikieds is a  command line script to summarize the editors for a given 
+Wikipedia article.  Results are output in Markdown.  If you have ideas for 
+improving this script please submit an issue ticket. You'll see it can take 
+some time to run, depending on the number editors, and their number of 
+edits on Wikipedia.
 
 Install with
 
