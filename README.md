@@ -1,4 +1,4 @@
-wikieds
+# wikieds
 
 A command line script to summarize the editors for a given Wikipedia article.
 Results are output in Markdown.  If you have ideas for improving this script
