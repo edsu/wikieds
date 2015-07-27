@@ -50,6 +50,8 @@ def get_editors(title):
         results = json.load(urllib.urlopen(u))
         page_id = results['query']['pages'].keys()[0]
         for rev in results['query']['pages'][page_id]['revisions']:
+            if 'user' not in rev:
+                continue
             stats['count'] = stats.get('count', 0) + 1
             user = rev['user']
             date = rev['timestamp']
