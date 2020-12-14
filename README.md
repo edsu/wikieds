@@ -12,7 +12,7 @@ Install with
 
 Then run it like this:
 
-    % wikieds.py "Ta-Nehisi Coates"
+    % wikieds "Ta-Nehisi Coates"
 
 Here's what the rendered Markdown will look like:
 
